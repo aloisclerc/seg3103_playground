@@ -1,43 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a38f879-5ffd-4e5a-9c94-8de1d25bfd5d" name="Default Changelist" comment="added tests">
-      <change beforePath="$PROJECT_DIR$/../../dateTestResults.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/._ecs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/ecs/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/ecs/._dist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/ecs/._src" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/ecs/src/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/ecs/src/._Bit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/ecs/src/._Date.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/ecs/test/._BitAndTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/ecs/test/._BitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ecs.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_platform_console_standalone_1_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecs.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/junit-platform-console-standalone-1.7.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Date.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/BitAndTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/BitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/DateNextDateExceptionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/DateNextDateOkTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/DateTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../registration/__MACOSX/registration/._user-registration-app-0.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../registration/registration/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../registration/registration/.idea/libraries/user_registration_app_0_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../registration/registration/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../registration/registration/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../registration/registration/.idea/registration.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../registration/registration/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../registration/registration/bin/run" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../registration/registration/bin/user-registration-app-0.1.0.jar" beforeDir="false" />
-    </list>
+    <list default="true" id="1a38f879-5ffd-4e5a-9c94-8de1d25bfd5d" name="Default Changelist" comment="added tests" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1622167599471</updated>
       <workItem from="1622167601038" duration="864000" />
-      <workItem from="1622173101222" duration="387000" />
+      <workItem from="1622173101222" duration="807000" />
     </task>
     <task id="LOCAL-00001" summary="added lab_2 code">
       <created>1622168389585</created>
