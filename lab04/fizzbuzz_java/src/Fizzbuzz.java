@@ -31,8 +31,10 @@ public class Fizzbuzz {
     }
     public String[] fizzbuzz(int num, int num2){
         String[] temp = new String[num2-num+1];
+        int j = num;
         for(int i = 0; i <= num2-num; i++){
-            temp[i] = fizzbuzz(i);
+            temp[i] = fizzbuzz(j);
+            j++;
         }
         return temp;
     }
