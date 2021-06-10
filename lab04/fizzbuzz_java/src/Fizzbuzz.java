@@ -4,11 +4,17 @@ public class Fizzbuzz {
         Fizzbuzz f = new Fizzbuzz();
         f.fizzbuzz();
     }
+    public void print_fizzbuzz(){
+        String[] temp = new String[100];
+        for(int i = 0; i < 100; i++){
+            temp[i] = fizzbuzz(i);
+            System.out.println(temp[i]);
+        }
+    }
     public String[] fizzbuzz(){
         String[] temp = new String[100];
         for(int i = 0; i < 100; i++){
             temp[i] = fizzbuzz(i);
-            System.out.print("\""+temp[i]+"\", ");
         }
         return temp;
     }
