@@ -29,5 +29,12 @@ public class Fizzbuzz {
             return num + "";
         }
     }
+    public String[] fizzbuzz(int num, int num2){
+        String[] temp = new String[num2-num+1];
+        for(int i = 0; i <= num2-num; i++){
+            temp[i] = fizzbuzz(i);
+        }
+        return temp;
+    }
 
 }

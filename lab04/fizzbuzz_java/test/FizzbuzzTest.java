@@ -21,6 +21,20 @@ public class FizzbuzzTest {
         }
 
     }
+    @Test
+    public void twoNumTest(){
+        Fizzbuzz f = new Fizzbuzz();
+        var exp = new String[]{"1","2","Fizz","4","Buzz"};
+        var act =  f.fizzbuzz(1,5);
+        for(int i = 0; i <= 4; i++){
+            assertEquals(exp[i], act[i]);
+        }
+        exp = new String[]{"14","FizzBuzz","16"};
+        act =  f.fizzbuzz(14,16);
+        for(int i = 0; i <= 2; i++){
+            assertEquals(exp[i], act[i]);
+        }
+    }
 
 
 }
