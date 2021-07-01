@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/objenesis-3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/easymock-4.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/easymock-4.3-bundle.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mockito-core-3.11.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/junit-platform-console-standalone-1.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mockito-junit-jupiter-3.11.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
