@@ -31,7 +31,7 @@ Two of the implemented tests failed upon running which exposed a lot of problems
 
 First, the function didnt check if the user is a substring of a different user. This caused is_Mentionned("me") to return true
 for a tweet mentioning @meat
-![](Twitter_substring.png)
+![](twitter_substring.png)
 
 
 Second, the function didn't have any try catch block to catch situations where no tweet is loaded
