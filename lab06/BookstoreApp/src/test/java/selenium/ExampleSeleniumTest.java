@@ -29,14 +29,16 @@ class ExampleSeleniumTest {
 
   @BeforeEach
   void setUp() {
+    System.setProperty("webdriver.gecko.driver", "/home/alois/bin/geckodriver");
     // Pick your browser
-    // driver = new FirefoxDriver();
+    driver = new FirefoxDriver();
     // driver = new SafariDriver();
-    WebDriverManager.chromedriver().setup();
-    driver = new ChromeDriver();
+    WebDriverManager.firefoxdriver().setup();
+//    WebDriverManager.chromedriver().setup();
+//    driver = new ChromeDriver();
 
     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-    driver.get("http://localhost:8080/");
+    driver.get("http://localhost:8080");
     // wait to make sure Selenium is done loading the page
     WebDriverWait wait = new WebDriverWait(driver, 60);
     wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("title")));
@@ -75,6 +77,20 @@ class ExampleSeleniumTest {
     actual = welcome.getText();
     assertEquals(expected, getWords(actual)[0]);
   }
+
+  @Test
+  void search_test() {
+    WebElement category = driver.findElement(By.id("search"));
+    category.sendKeys("");
+    WebElement search = driver.findElement(By.id("searchBtn"));
+    search.click();
+    boolean flag = false;
+    if(driver.findElements( By.cssSelector(".content p") ).size() == 0){
+      flag = true;
+    }
+    assertEquals(true, flag);
+  }
+
 
   private String[] getWords(String s) {
     return s.split("\\s+");

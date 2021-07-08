@@ -1,4 +1,5 @@
 import static org.junit.jupiter.api.Assertions.*;
+import org.openqa.selenium.chrome.*;
 import org.junit.jupiter.api.Test;
 
 class ExampleTest {
